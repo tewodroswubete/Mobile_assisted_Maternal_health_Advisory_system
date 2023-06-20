@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ensias.healthcareapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/mom2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mom2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".pdfreader.Month9"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month8"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month7"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month6"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month5"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month4"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Monther3"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month2"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.Month1"
+            android:exported="false" />
+        <activity
+            android:name=".settingActvity"
+            android:exported="false" />
+        <activity
+            android:name=".Invite"
+            android:exported="false" />
+        <activity
+            android:name=".DriverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyPatientsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SeeCommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutDevelopersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewDetail"
+            android:exported="false" />
+        <activity
+            android:name=".ViewInformation"
+            android:exported="false" />
+        <activity
+            android:name=".LocationListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Location6"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.common_mistakes"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EDDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity android:name=".pdfreader.viewpdf" />
+        <activity android:name=".pdfreader.uploadfile" />
+        <activity android:name=".pdfreader.pdfMainActivity" />
+        <activity
+            android:name=".bottom_nav.BottomNav"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_nav.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_nav.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_nav.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_nav.Bottom_nav"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Share"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.Viewpdf1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfInformation"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetail"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MapssActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MainnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ShareLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CurrentLocationMapsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LocationMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.AllVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.PlayVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.VideosDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.AddVideoActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Informations.AddVideo"
+            android:exported="false" />
+        <activity
+            android:name=".SearchUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CurrentLocationMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm2"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Alarm"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.PdfActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.PdfActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".UsersList"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.PdfActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.PdfActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".pdfreader.ReadPdf"
+            android:exported="false" />
+        <activity
+            android:name=".Information"
+            android:exported="false" />
+        <activity
+            android:name=".about_us"
+            android:exported="false" />
+        <activity
+            android:name=".Week1_4"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadedDitail"
+            android:exported="false" />
+        <activity
+            android:name=".UploadedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadInformation"
+            android:exported="false" />
+        <activity
+            android:name=".UploadVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Fpwoker"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileDoctorActivity"
+            android:exported="false" />
+        <activity android:name=".MyCalendarDoctorActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".AppointementActivity" />
+        <activity android:name=".FicheInfo" />
+        <activity android:name=".PatientInfoActivity" />
+        <activity android:name=".DossierMedical" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".PatientRequestPage" />
+        <activity android:name=".DoctorHomeActivity" />
+        <activity
+            android:name=".EditProfileDoctorActivity"
+            android:exported="false" />
+        <activity android:name=".ConfirmedAppointmensActivity" />
+        <activity android:name=".PatientAppointementsActivity" />
+        <activity android:name=".ProfilePatientActivity" />
+        <activity android:name=".MyDoctorsAvtivity" />
+        <activity android:name=".EditProfilePatientActivity" />
+        <activity android:name=".DoctorAppointementActivity" />
+        <activity android:name=".FicheActivity" />
+        <activity android:name=".MyPatientsActivity" />
+        <activity android:name=".SearchPatActivity" />
+        <activity android:name=".FirstSigninActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Main"
+            android:launchMode="singleTop" />
+
+        <receiver
+            android:name=".services.AlertReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver android:name=".AlarmReceiver" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyApas1-wAr0vu4yG-2VUGSq3xYAD9FBQ10" />
+    </application>
+
+</manifest>

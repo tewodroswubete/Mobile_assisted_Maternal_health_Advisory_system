@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="planets_array">
+        <item>Patient</item>
+        <item>Doctor</item>
+        <item>Fpworker</item>
+        <item>Admin</item>
+        <item>Driver</item>
+    </string-array>
+
+    <string-array name="planets_array2" >
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+
+    <string-array
+        name="ethiopian_months">
+        <item>መስከረም</item>
+        <item>ጥቅምት</item>
+        <item>ሕዳር</item>
+        <item>ታኅሳስ</item>
+        <item>ጥር</item>
+        <item>የካቲት</item>
+        <item>መጋቢት</item>
+        <item>ምያዝያ</item>
+        <item>ግንቦት</item>
+        <item>ሰኔ</item>
+        <item>ሓምሌ</item>
+        <item>ነሓሴ</item>
+        <item>ጳጐሜ</item>
+    </string-array>
+
+</resources>

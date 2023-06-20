@@ -1,0 +1,433 @@
+<resources>
+
+
+    <string name="app_name" translatable="false">Health Care App</string>
+    <string name="main_activity_description" translatable="false">Discuss with your mentors, simply.</string>
+
+    <string name="login" translatable="false">Connection</string>
+    <string name="chat_with_mentor" translatable="false">Discuss with a mentor</string>
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notification_title" translatable="false">"You have received a notification."</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="error_not_connected" translatable="false">You must log in !</string>
+    <string name="error_authentication_canceled" translatable="false">Authentication canceled&#8230;</string>
+
+    <string name="error_no_internet" translatable="false">No internet connection !</string>
+    <string name="error_unknown_error" translatable="false">An unknown error s\'est Produced&#8230;</string>
+    <string name="connection_succeed" translatable="false">Authentication successful.!</string>
+    <string name="button_login_text_logged" translatable="false">View profile</string>
+    <string name="button_login_text_not_logged" translatable="false">Connection</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="toolbar_title_login_activity" translatable="false">Your profile</string>
+    <string name="text_input_username" translatable="false">Username</string>
+    <string name="text_view_email" translatable="false">Email address :</string>
+    <string name="button_update_account" translatable="false">Update username</string>
+    <string name="button_delete_account" translatable="false">Delete my account</string>
+    <string name="button_sign_out_account" translatable="false">Log out</string>
+    <string name="info_no_email_found" translatable="false">No email address</string>
+    <string name="info_no_username_found" translatable="false">No username</string>
+    <string name="popup_message_confirmation_delete_account" translatable="false">Are you sure you want to delete your account?</string>
+    <string name="popup_message_choice_yes" translatable="false">Yes!</string>
+    <string name="popup_message_choice_no" translatable="false">No</string>
+    <string name="check_box_is_mentor" translatable="false">Are you a/an mentor ?</string>
+
+    <!-- MENTOR_CHAT ACTIVITY -->
+    <string name="toolbar_title_mentor_chat_activity" translatable="false">Chats de discussions</string>
+    <string name="text_input_title_mentor_chat_activity" translatable="false">Compose your message</string>
+    <string name="button_title_mentor_chat_activity" translatable="false">Send</string>
+    <string name="text_view_mentor_chat_error" translatable="false">This discussion thread currently contains no messages&#8230;</string>
+    <string name="popup_title_permission_files_access" translatable="false">This application needs permission to function.</string>
+    <string name="toast_title_no_image_chosen" translatable="false">No image chosen&#8230;</string>
+    <!-- Book api -->
+    <string name="thumbnail" translatable="false">Thumbnail</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="category" translatable="false">Category</string>
+    <string name="price" translatable="false">40 $</string>
+    <string name="author" translatable="false">Author</string>
+
+
+    <string name="search">Search</string>
+    <string name="hint" translatable="false">Enter your query </string>
+    <string name="description_image_view" translatable="false">Template for  the image</string>
+    <string name="description_divider" translatable="false">Divider</string>
+    <string name="Failed_to_Load_data" translatable="false">Please check your Internet Connection</string>
+    <string name="NO_RESULT" translatable="false">No matching results</string>
+
+    <string-array name="fiche_type">
+        <item>Consultation</item>
+        <item>Hospitalisation</item>
+    </string-array>
+    <string-array name="specialite_spinner">
+        <item>Obstetrician-gynecologist</item>
+        <item>Maternal-fetal medicine specialist</item>
+        <item>Perinatologist</item>
+        <item>Reproductive endocrinologist</item>
+        <item>Certified nurse-midwife (CNM)</item>
+        <item>Family practice physician</item>
+        <item>Pediatrician</item>
+        <item>Doula</item>
+    </string-array>
+
+    <string-array name="blood_spinner">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="apotime" translatable="false">ApoTime</string>
+    <string name="my_calendar" translatable="false">My Calendar</string>
+    <!--<string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+        -->
+    <string name="location1" translatable="false">
+        <a href="http://maps.google.com/maps?q=loc:7.0455901,38.5012524"><font color="blue">My Location</font></a>
+     </string>
+
+
+    <string name="anatomy1" translatable="false">
+        <font color="black" size="18">
+            <div id="1"><font size="30"><b>ጽንስ በሆድ ውስጥ</b></font></div>\n\n\n
+            <div id="2">
+                <b><font size="22">ልጃችሁ በሆዳችሁ ውስጥ ምን ያደርጋል?</font></b>\n\n
+                ጽንሱ በሆድ ውስጥ ሲንቀሳቀስ አስደሳች ስሜት ለእናቲቱ ይፈጥራል። ህጻኑም በመላው የእርግዝና ጊዜያቶች ውስጥ ንቁ ነው። የጽንሱ እንቅስቃሴ ለመጀመሪያ ጊዜ የሚሰማዎት ከ 16-22 ባሉት ሳምንታት ውስጥ ነው። በፊት ወልደው ለሚያውቁ ሴቶች ይህ ስሜት ቀደም ብሎ ሊመጣ ይችላል።
+
+በመጀመሪያ የጽንሱ እንቅስቃሴ በአብዛኛው አይሰማዎትም፤ አልያም የማህፀን እንቅስቃሴ በሳምንት አንድ ሁለት ጊዜ ብቻ ይሰማና ከትንሽ ጊዜ በኋላ እንቅስቃሴው በየቀኑ ይሰማል።
+
+ጽንሱ በሚያድግበት ጊዜ፣ እንቅስቃሴው በጉልህ ይሰማዎታል በሂደትም እንቅስቃሴው በይበልጥ ይሰማዎታል። ምናልባት ግን ትንንሽ እንቅስቃሴዎች ላይሰማዎት ይችላሉ፣ ለምሳሌ አውራጣታቸውን ሲመጠምጡ ወይም የእጅ እና የእግር ጣቶቻቸውን ሲያሳስቡ ስሜቱን ላታደምጡት ትችላላችሁ።
+
+በመጨረሻዎቹ የእርግዝና ጊዚያቶች ደግሞ አንዳንድ ምቶችንና መገላበጦችን ምናልባት ስርቅታንም ሊያደምጡ ይችላሉ። እነዚህ ሁሉ እንቅስቃሴዎች በመጨረሻዎቹ የእርግዝና ጊዜያት በጉልህ የሚታወቅዎት ሲሆኑ ምጥ እስከሚጀምርበት ሰዓት ድረስ ሊዘልቁ ይችላሉ።:-
+            </div>
+            <div id="2.1">
+                <i>"እንቅስቃሴዎች ስለጽንሱ ጤና ምን ይላሉ?"</i> ጽንስ ምንም ጤነኛ ቢሆን እንኳ፣ ሁልጊዜም አይንቀሳቀስም። ሁሉም ጤነኛ ህጻናት ጸጥተኛ ይሆናሉ ወይም ለአጭር ጊዜ ይተኛሉ። በአብዛኛው፣ ንቁ ልጅ ጤነኛ ነው። አንዳንድ እናቶች ጽንሱ ደህና ቢሆንም እንኳ፣ የሌሎችን እናቶች ያህል የጽንሱ እንቅስቃሴ አይሰማቸውም። ትልቅ ተክለ ሰውነት ያላቸው ወይም የእንግዴ ልጁ ከማህጸናቸው ፊት ለፊት ከሆነ ያን ያህል ጠንከር ያለ የጽንስ እንቅስቃሴ አይሰማቸውም።\n\n
+                Just watch the given videos to get an idea of the above quoted topics.\n\n
+            </div>
+            <div id="3">
+                .	<a href="https://www.youtube.com/watch?v=Qn80_xv40ug"><font color="blue">Pregnancy Week By Week</font></a>\n\n
+            </div>
+            <div id="4">
+                •	<a href="https://www.youtube.com/watch?v=rqVnyvfhld8"><font color="blue">Lifecycle of baby from Week 1 till Week 40</font></a>\n\n
+            </div>
+            <div id="5">
+                •	<a href="https://www.ethiopianpregnancy.com/%e1%8b%a8%e1%88%98%e1%8c%80%e1%88%98%e1%88%aa%e1%8b%ab%e1%8b%8d-%e1%88%b6%e1%88%b5%e1%89%b5-%e1%8b%88%e1%88%ab%e1%89%b5-%e1%8a%a8%e1%8d%85%e1%8a%95%e1%88%b0%e1%89%b5-%e1%8a%a5%e1%88%b5%e1%8a%a8-12/"><font color="blue">ከፅንሰት እስከ 12 ሳምንት</font></a>\n\n
+            </div>
+            <div id="6">
+                •	<a href="https://www.youtube.com/watch?v=PsSjD4teXTQ"><font color="blue">የእርግዝና የመጀመሪያ 1 ወር ምልክቶች</font></a>\n\n
+                     more.....\n
+            </div>
+
+        </font>
+    </string>
+
+
+    <string name="comen_comp" translatable="false">
+
+
+    <div class="accordion-item">
+
+        <div id="gestational">
+            <h2 class="accordion-header" id="accordion-title-836">
+                <button aria-controls="body_accordion-836" aria-expanded="true" class="accordion-button" data-bs-target="#body_accordion-836" data-bs-toggle="collapse" type="button">
+                    Gestational Diabetes
+                </button>
+            </h2>
+        </div>
+
+        <div style="" aria-labelledby="accordion-title-836" class="accordion-collapse collapse show" id="body_accordion-836" tabindex="0">
+            <div class="accordion-body">
+
+                <div class="clearfix text-formatted field field--name-field-nichd-accordion-body field--type-text-long field--label-hidden field--item"><p><a href="/health/topics/diabetes/Pages/default.aspx" id="anch_731">Gestational diabetes</a> occurs when a woman who didn\'t have diabetes before pregnancy develops the condition during pregnancy.</p>
+
+                    <p>Normally, the body digests parts of your food into a sugar called glucose. Glucose is your body\'s main source of energy. After digestion, the glucose moves into your blood to give your body energy.</p>
+
+                    <p>To get the glucose out of your blood and into the cells of your body, your pancreas makes a hormone called insulin. In gestational diabetes, hormonal changes from pregnancy cause the body to either not make enough insulin, or not use it normally. Instead, the glucose builds up in your blood, causing diabetes, otherwise known as high blood sugar.</p>
+
+                    <p>Managing gestational diabetes, by following a treatment plan outlined by a health care provider, is the best way to reduce or prevent problems associated with high blood sugar during pregnancy. If not controlled, it can lead to high blood pressure from preeclampsia and having a large infant, which increases the risk for cesarean delivery.<sup><a href="#f4" id="anch_732">4</a></sup></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+     </string>
+
+
+    <string name="about_us_text" translatable="false">
+        <font color="black" size="18">
+            <div id="1">
+                \n\n\n Hey user! What\'s going on?! I hope you\'re doing great!\n\n
+                I\'m <b>Tewodro  Wubete</b>,
+            </div>
+            <div id="2">
+                <b>project manager</b> and
+            </div>
+            <div id="3">
+                <b>DEVELOPER</b> of this App.
+            </div>
+            <div id="4">
+                I\'m <i>21</i>, (born in Sept 1998), and I\'m currently in the
+            </div>
+            <div id="5">
+                8<sup><font size="10">th</font></sup> and Final Semester (April 2020), pursuing my
+            </div>
+            <div id="6">
+                <i>B.Tech</i> in
+            </div>
+            <div id="7">
+                <i>Information System</i> from
+            </div>
+            <div id="8">
+                <b>Vellore Institute of Technology, Hawassa.</b> You may be wondering:-
+            </div>
+            <div id="9">
+                <i>\"How the hell can someone from \'Mechanical\' branch develop an \'Android App\'??!!\"</i>\n\n
+
+                Well, that\'s the speciality of \'Mechanical\' Engineers. They\'re multi-talented xD! All jokes aside, this ISN\'T a very complex app. So, developing this one would be a \'cakewalk\' for \'Experienced\' App Developers. But as I had NO prior app development experience, this was a bit challenging for me. Despite being in the \'Mechanical\' branch, my inclination towards \'CODING\' increased a lot since my
+            </div>
+            <div id="10">
+                4<sup><font size="10">th</font></sup> semester. So, naturally I ended up DEVELOPING this app due to my interest in both CODING and FITNESS.\n\n
+            </div>
+            <div id="11">
+                I started my \'Fitness Journey\' from
+                <b>December 2016</b>, a time when I could manage ONLY \'4 Push Ups\' in a row xD!! From then onwards, I consistently worked on my weaknesses for \'3 years\' and ended up getting to a decent level of strength and fitness (13 Pull Ups in a row, 30 Push Ups in a row, 20 Dips in a row etc.). It was challenging in the beginning, but slowly as I got stronger, I started developing a passion for FITNESS and \'CALISTHENICS\' (aka bodyweight training). I\'ve NEITHER hired a \'PERSONAL FITNESS TRAINER\' (as I couldn\'t afford one), NOR have I ever used any \'FITNESS APPS\' (as almost all Fitness apps out there are totally USELESS) throughout my fitness journey. Eventually, because of that, I ended up making a hell lot of avoidable mistakes which was a complete waste of time and energy.\n\n
+
+                You might be wondering:-
+            </div>
+            <div id="12">
+                <i>This should have been an \'About Me\' section instead of an \'About Us\' section!! When the hell is this guy going to introduce his other groupmates??!!</i>\n\n
+
+                Well, it would be UNFAIR to say that NOBODY ELSE was involved in helping me PROGRESS in my fitness levels as well as in DEVELOPING this app. It was CERTAINLY IMPOSSIBLE for me to achieve all this without the \'QUALITY HELP\' and \'advice\' from all the
+            </div>
+            <div id="13">
+                <b>\'Online Doctor appointment Experts\'</b> and
+            </div>
+            <div id="14">
+                <b>\'App Developers\'</b> who have managed to find time to help and share their VALUABLE ONLINE CONTENT to the public through
+            </div>
+            <div id="2">
+                <i>\'Stack Overflow\', \'GitHub\', \'GeeksForGeeks\', \'YouTube\', \'Facebook\', \'Instagram\' and other related websites.</i>
+            </div>
+            <div id="15">
+                <b>I would like to SINCERELY THANK all of them from the \'Bottom of My Heart\'.</b>\n\n
+
+                Not just them, but I would also love to give CREDIT to my
+            </div>
+            <div id="16">
+                <b>FAMILY, FRIENDS and ALL OTHERS</b> who have \'constantly supported me\' to follow my passion :)\n\n
+
+                Undoubtedly, this was a COLLECTIVE EFFORT :)\n\n
+            </div>
+
+        </font>
+    </string>
+
+
+    <string name="common_mistakes">
+
+        <font color="black" size="18">
+            <div id="1"><font size="30"><b>What are some of the more common complications of pregnancy?</b></font></div>\n\n\n
+            <div id="2">
+                <b><font color="blue" size="20">Amniotic fluid complications</font></b>\n\n
+    Too much or too little amniotic fluid in the sac around the fetus may be a sign of a problem with the pregnancy. Too much fluid can put too much pressure on the mothers uterus, leading to preterm labor. It also can cause pressure on the mothers diaphragm. This can lead to breathing difficulties. Fluids tend to build up in cases of uncontrolled diabetes, a multiple pregnancy, incompatible blood types, or birth defects. Too little fluid may be a sign of birth defects, growth retardation, or stillbirth. \n\n
+
+            </div>
+            <div id="3">
+                <b>recommendation:-</b> <i>The recommendations for amniotic fluid complications during pregnancy depend on the specific complication identified. Some possible recommendations include:!\n\n
+
+<b>1. Oligohydramnios (low amniotic fluid):</b> Management may include close monitoring of fetal growth and wellbeing, frequent ultrasounds, and possibly induction of labor or cesarean delivery if the baby is not growing well or if there are signs of distress.!\n\n
+
+<b>2. Polyhydramnios (excess amniotic fluid): </b>Management may involve monitoring for underlying causes such as gestational diabetes or fetal abnormalities, as well as monitoring fetal growth and wellbeing. In severe cases, drainage of excess fluid may be necessary to prevent complications.!\n\n
+
+<b>3. Premature rupture of membranes (PROM):</b> Management may involve close monitoring for signs of infection, induction of labor if the baby is mature enough, and administration of antibiotics if infection is suspected.\n\n
+
+             <b>  4. Meconium-stained amniotic fluid: </b>Management may involve close monitoring of the babys heart rate and respiratory status after delivery, as well as possible suctioning of the babys airway to prevent meconium aspiration syndrome.</i>\n\n\n
+
+            </div>
+            <div id="4">
+                <b><font color="blue" size="20">Bleeding</font></b>\n\n
+                Bleeding in late pregnancy may be a sign of placental complications, a vaginal or cervical infection, or preterm labor. Women who bleed in late pregnancy may be at greater risk of losing the fetus and bleeding excessively. Bleeding at any time during the pregnancy should be reported to your healthcare provider right away.\n\n
+
+            </div>
+            <div id="5">
+                <b>recommendation:-</b> <i>
+                Bleeding during pregnancy can be a serious complication and requires immediate medical attention. The recommendations for bleeding during pregnancy depend on the cause and severity of the bleeding. Some possible recommendations include:\n\n
+1. Light spotting: If the bleeding is light spotting, it may be normal and not require any medical intervention. However, it is important to notify a healthcare provider to determine the cause and ensure everything is okay.\n\n
+2. Heavy bleeding: If the bleeding is heavy or accompanied by cramping or pain, it may be a sign of a more serious complication such as a miscarriage or placenta previa. In this case, immediate medical attention is necessary and may include hospitalization, bed rest, or surgery.\n\n
+3. Antepartum hemorrhage: If the bleeding occurs after 20 weeks of pregnancy, it is considered an antepartum hemorrhage and may be caused by problems with the placenta or cervix. Treatment may include bed rest, medication, or delivery of the baby depending on the severity of the bleeding and the gestational age of the baby.\n\n
+It is important to seek medical attention immediately if any bleeding occurs during pregnancy to ensure the safety of both the mother and baby.\n\n
+
+            </i>\n\n
+            </div>
+            <div id="6">
+                <b><font color="blue" size="20">Ectopic pregnancy</font></b>\n\n
+                An ectopic pregnancy is the development of the fetus outside of the uterus. This can happen in the fallopian tubes, cervical canal, or the pelvic or belly. The cause of an ectopic pregnancy is usually scar tissue in the fallopian tube from infection or disease. The risk of ectopic pregnancy is increased in women who have had tubal sterilization procedures, especially women who were younger than age 30 at the time of sterilization.\n\n
+            Ectopic pregnancies happen in about 1 out of 50 pregnancies and can be very dangerous to the mother. Symptoms may include spotting and cramping. The longer an ectopic pregnancy goes on, the greater the chance that a fallopian tube will rupture. An ultrasound and blood tests may confirm the diagnosis. Treatment of an ectopic pregnancy may include medicine or surgical removal of the fetus.\n\n
+            </div>
+            <div id="9">
+                <b><b>recommendation:-</b></b>
+                <i>Ectopic pregnancy is a serious complication that requires immediate medical attention. An ectopic pregnancy occurs when a fertilized egg implants outside of the uterus, typically in the fallopian tube. The recommendations for ectopic pregnancy include:</i>\n\n\n
+               <b>1. Diagnosis:</b> If ectopic pregnancy is suspected, a healthcare provider will perform an ultrasound and blood tests to confirm the diagnosis.\n\n
+                <b>2. Treatment:</b> Treatment for ectopic pregnancy typically involves medication or surgery. Medication may be used to dissolve the pregnancy, but surgery is often necessary to remove the embryo and repair any damage to the fallopian tube.\n\n
+                <b>3. Follow-up care:</b> After treatment, it is important to receive follow-up care to ensure that all of the tissue has been removed and that the fallopian tube is healing properly. Women who have had an ectopic pregnancy may have a higher risk of future ectopic pregnancies, so close monitoring is necessary.\n\n
+            </div>
+            <div id="10">
+                <b><font color="blue" size="20">Miscarriage or fetal loss</font></b>\n\n
+                 A miscarriage is pregnancy loss that happens up to 20 weeks of gestation. Most miscarriages happen before 12 weeks. Miscarriages happen in about 15% of all pregnancies and are usually due to genetic or chromosomal abnormalities.\n\n
+                Miscarriages are usually preceded by spotting and intense cramping. To confirm a miscarriage, an ultrasound and blood tests may be done. The fetus and contents of the uterus are often naturally expelled. If this does not happen, a procedure called a dilation and curettage (D and C) may be necessary. This procedure uses special instruments to remove the abnormal pregnancy.\n\n
+             Fetal loss in the second trimester may happen if the cervix is weak and opens too early. This is called incompetent cervix. In some cases of incompetent cervix, a healthcare provider can help prevent pregnancy loss by stitching the cervix closed until delivery.\n\n
+            </div>
+            <div id="11">
+                (Check <a href="https://youtu.be/j9peQFwW7T4"><font color="blue">this on youtube for more...</font></a> \n\n
+            </div>
+            <div id="12">
+                <b><b>recommendation:-</b></b>
+                <i>Miscarriage or fetal loss is a devastating complication of pregnancy. The recommendations for miscarriage or fetal loss depend on the timing and cause of the loss. Some possible recommendations include:</i>\n\n\n
+              <b>1. Diagnosis:</b>If a miscarriage or fetal loss is suspected, a healthcare provider will perform an ultrasound and blood tests to confirm the diagnosis. \n\n
+               <b>2. Treatment: </b> Treatment for miscarriage or fetal loss may involve expectant management, medication, or surgery. Expectant management involves waiting for the pregnancy tissue to pass naturally. Medication may be used to help the tissue pass more quickly. Surgery, called a dilation and curettage (D and C), may be necessary to remove the tissue if it does not pass on its own.\n\n
+                <b>3.Emotional support:</b>  Miscarriage or fetal loss can be emotionally devastating. It is important to receive emotional support from loved ones, as well as counseling or support groups if necessary.\n\n
+            </div>
+
+            <div id="13">
+                <b><font color="blue" size="20">Placental complications</font></b>\n\n
+Under normal circumstances, the placenta attaches to the uterine wall. However, two types of placental complications may happen, including:\n\n
+
+                <b>Placental abruption</b>. Sometimes the placenta becomes detached from the uterine wall too soon. This is called placental abruption and leads to bleeding and less oxygen and nutrients to the fetus. The detachment may be complete or partial. The cause of placental abruption is often unknown. Placental abruption happens in about 1 in every 100 live births.!\n\n
+               <b> Placenta previa.</b> Normally, the placenta is located in the upper part of the uterus. Placenta previa is a condition in which the placenta is attached close to or covering the cervix (the opening into the uterus). This type of placental complication happens in about 1 in every 200 deliveries and happens more often in women who have scarring of the uterus from previous pregnancies. It also happens in women who have fibroids or other problems in the uterus, or in women who have had previous uterine surgeries.!\n\n
+      Symptoms may include vaginal bleeding that is bright red and not associated with belly tenderness or pain. Diagnosis is confirmed by doing a physical exam and an ultrasound. Depending on how bad the problem is and the stage of pregnancy, a change in activities or bed rest may be ordered. The baby usually has to be delivered by cesarean section to keep the placenta from detaching early and depriving the baby of oxygen during delivery.\n\n
+
+            </div>
+            <div id="14">
+                <b>Recommendation:-</b>
+                <i> Placental complications during pregnancy can be serious and require medical attention. The recommendations for placental complications depend on the specific complication identified. Some possible recommendations include:!\n\n\n</i>
+<b>1. Placenta previa:</b> Placenta previa occurs when the placenta partially or completely covers the cervix. Treatment may involve bed rest, monitoring for bleeding, and delivery by cesarean section if necessary.\n\n
+       <b>2. Placental abruption:</b> Placental abruption occurs when the placenta separates from the uterine wall before delivery. Treatment may involve monitoring the babys heart rate and delivering the baby if necessary.\n\n
+<b>3. Placenta accreta:</b> Placenta accreta occurs when the placenta grows too deeply into the uterine wall. Treatment may involve delivery by cesarean section and possible removal of the uterus\n\n
+                4. Other placental issues: Other placental issues such as placental insufficiency or infarction may require close monitoring of fetal growth and wellbeing, as well as possible early delivery if necessary.\n\n
+<div id="01">
+
+                (Check <a href="https://youtu.be/Z9dBS1xLQMc"><font color="blue">this on youtube for more...</font></a> \n\n
+            </div>
+            </div>
+        </font>
+    </string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="channel_id">techasyluminfo_note_notification</string>
+    <string name="channel_name">techasyluminfo_note_notification</string>
+    <string name="channel_description">techasyluminfo_note_notification</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this note</string>
+
+    <string name="add_note"> Add Note</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="menu_refresh">Refresh</string>
+
+    <string name="what_s_on_your_mind">What do you need to know ?</string>
+    <string name="app_namep">Pregnancy Calculator</string>
+    <string name="logo_alt">Calculate due date</string>
+    <string name="main_menu_message">Calculate Your Date</string>
+    <string name="enterlmd">Last menstrual period date:</string>
+    <string name="eddethiolabel">Expected delivery date:</string>
+    <string name="button_up">+</string>
+    <string name="button_down">-</string>
+    <string name="button_visit">Visit the online calculator website</string>
+
+
+    <string name="toggle_to_amharic">Amharic</string>
+    <string name="toggle_to_english">English</string>
+    <string name="sign_up" translatable="false">SIGN UP</string>
+    <string name="forgot_password" translatable="false">Forgot Password?</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="confirm_password_hint" translatable="false">Confirm password</string>
+    <string name="login_btn" translatable="false">LOGIN</string>
+    <string name="sign_up_btn" translatable="false">SIGN UP</string>
+    <string name="create_account" translatable="false">Create Account</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="tel_no">Tel</string>
+    <string name="choose_your_role">Choose your role</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="well_come">Well Come </string>
+    <string name="profile">profile</string>
+    <string name="appointment">Appointment</string>
+    <string name="med_info">med information</string>
+    <string name="patient_request">Patient Request</string>
+    <string name="tips">tips</string>
+    <string name="my_calendars">My Calendar</string>
+    <string name="notification">Notification</string>
+    <string name="my_location">my location</string>
+    <string name="my_petient">My Petient</string>
+    <string name="logout">logout</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="chat">Chat</string>
+    <string name="help">Help</string>
+    <string name="bmi_calculater">BMI Calculater</string>
+    <string name="pregnacy_date">Pregnacy Date</string>
+    <string name="disease">disease</string>
+    <string name="description">Description</string>
+    <string name="treatment">Treatment</string>
+    <string name="type_of_record">Type of record</string>
+    <string name="add">Add</string>
+    <string name="select_appo">Select your appointement purpose</string>
+    <string name="thanks_service">Thank you for choosing our service !</string>
+    <string name="appointement_information">Appointement information</string>
+    <string name="write_message">Write message</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="enter_result_title">Enter result title</string>
+    <string name="enter_result_detail">Enter result detail</string>
+    <string name="enter_recomendation">Enter recomendation</string>
+    <string name="save">Save</string>
+    <string name="register_location">Register Location</string>
+    <string name="enter_your_name_for_trake_location">Enter your name for trake location</string>
+    <string name="my_doctors">My Doctors</string>
+    <string name="get_information">Get Information</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="about_pregnacy">About Pregnacy</string>
+    <string name="medical_folder">Medical Folder</string>
+    <string name="reminder">Reminder</string>
+    <string name="manage_user">Manage user</string>
+    <string name="user_location">User location</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="feedback">Feedback</string>
+    <string name="information">Information</string>
+    <string name="register_user">Register User</string>
+    <string name="all_user">All user</string>
+    <string name="consultant">consultant</string>
+    <string name="consultation">Consultation</string>
+    <string name="search_location">Search Location</string>
+    <string name="creatacc">Create Account</string>
+    <string name="backlog">Back to login</string>
+    <string name="user_location_list">user location</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="upload">Upload</string>
+    <string name="view_pdf_files">View pdf files</string>
+    <string name="family_planing">Family Planing</string>
+    <string name="you_need_to_know">You need to know</string>
+    <string name="embryo_development">Embryo Development</string>
+    <string name="pregnancy_advise">pregnancy advise</string>
+    <string name="comment_complication">Common complication</string>
+    <string name="file_title">File Title</string>
+
+
+</resources>
+

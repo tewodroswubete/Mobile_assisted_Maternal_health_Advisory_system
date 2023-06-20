@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="2dp"
+    app:cardBackgroundColor="@color/cardview_light_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+<!--        <ImageView-->
+<!--            android:id="@+id/doctor_item_image"-->
+<!--            android:layout_width="89dp"-->
+<!--            android:layout_height="65dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="114dp"-->
+<!--            android:layout_marginLeft="14dp"-->
+<!--            android:layout_marginBottom="114dp"-->
+<!--            app:srcCompat="@drawable/ic_anon_user_48dp"-->
+<!--            tools:ignore="VectorDrawableCompat" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:text="Name:"
+            android:textSize="24dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/doctor_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/roboto"
+            android:maxLines="1"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#22BE87"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="63dp"
+            android:text="Role:" />
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginLeft="87dp"
+            android:layout_marginBottom="63dp"
+            android:fontFamily="@font/roboto"
+            android:text="Description"
+            android:textColor="#22BE87" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="43dp"
+            android:text="Email:" />
+
+        <TextView
+            android:id="@+id/text_view_description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="87dp"
+            android:layout_marginBottom="43dp"
+            android:fontFamily="@font/roboto"
+            android:text="Description"
+            android:textColor="#22BE87" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="23dp"
+            android:text="Adress:" />
+        <TextView
+            android:id="@+id/text_view_description3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="87dp"
+            android:layout_marginLeft="87dp"
+            android:layout_marginBottom="23dp"
+            android:fontFamily="@font/roboto"
+            android:text="Description"
+            android:textColor="#22BE87"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/black"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="3dp"
+                android:text="location:"/>
+
+            <Button
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@drawable/button_radius_primary_color"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="87dp"
+                android:layout_marginLeft="87dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/location1"
+                android:textColor="#22BE87"/>
+        <ImageView
+            android:id="@+id/option"
+            android:layout_alignParentRight="true"
+           android:layout_alignParentBottom="true"
+            android:layout_marginRight="0dp"
+            android:src="@drawable/icon_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/detailBtn2"
+            android:layout_width="52dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_radius_primary_color"
+            android:text="more."
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/deleteBtn2"
+            android:layout_width="52dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="115dp"
+            android:background="@drawable/button_danger"
+            android:text="Delete"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
