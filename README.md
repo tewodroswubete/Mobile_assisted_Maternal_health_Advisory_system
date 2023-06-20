@@ -17,33 +17,48 @@ appointments and receive reminders for prenatal checkups.
 To develop a prototype for the proposed system.
 
 ➢ To collect requirement and model system.
+
 ➢ To design and develop the system based on the requirements identified 
+
 ➢ To Perform requirement analysis.
+
 ➢ To Find a solution to the existing problem.
+
 ➢ To develop an easy-to-use interface that allows users to quickly access relevant information.
+
 ➢ To Design a persistent database.
+
 ➢ To implement mobile applications and acquiring a new knowledge.
+
 ➢ To develop a system that allows users to easily connect with healthcare professionals for advice 
 and support.
+
 ➢ To develop a system that allows users to easily access and book appointments with healthcare 
 professionals.
+
 ➢ To test the new system.
 
  Scope of the project 
  
 Our system focuses on mobile based Maternal Health Advise Mobile Application for Alatyon 
 General Hospital and will perform the following activities:
+
 ➢ User Authentication: The application should allow the admin to create a user account and 
 authenticate their identity.
+
 ➢ Prenatal Care Information: The application should provide comprehensive information on 
 prenatal care, including the importance of regular check-ups, tests, and screenings.
+
 ➢ Common Complications: The application should provide information on common
 complications during pregnancy and their treatments. 
+
 ➢ Communication Platform: The application should provide a platform for expectant mothers 
 to communicate with healthcare providers at Alatyon General Hospital and receive personalized 
 advice.
+
 ➢ Appointment Scheduling: The application should allow expectant mothers to schedule 
 appointments with healthcare providers at Alatyon General Hospital.
+
 ➢ Push Notifications: The application should provide push notifications to expectant mothers to 
 remind them of appointments and provide important information related to their health and 
 pregnancy.
