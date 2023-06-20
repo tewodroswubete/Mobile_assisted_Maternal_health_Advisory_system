@@ -1,13 +1,21 @@
 # Mobile_assisted_Maternal_health_Advisory_system
 
+
+   
+
+
 Specific objectives of this proposed project are:
+
+
 ➢ To find out the way mother can care themselves at home by providing them baby care advice and 
 pregnancy health related topics.
+
 ➢ To identify problems and analyze the existing maternal health care system.
 ➢ To improve access to maternal health services by enabling expectant mothers to book 
 appointments and receive reminders for prenatal checkups.
 
 To develop a prototype for the proposed system.
+
 ➢ To collect requirement and model system.
 ➢ To design and develop the system based on the requirements identified 
 ➢ To Perform requirement analysis.
@@ -20,7 +28,9 @@ and support.
 ➢ To develop a system that allows users to easily access and book appointments with healthcare 
 professionals.
 ➢ To test the new system.
+
  Scope of the project 
+ 
 Our system focuses on mobile based Maternal Health Advise Mobile Application for Alatyon 
 General Hospital and will perform the following activities:
 ➢ User Authentication: The application should allow the admin to create a user account and 
@@ -37,6 +47,8 @@ appointments with healthcare providers at Alatyon General Hospital.
 ➢ Push Notifications: The application should provide push notifications to expectant mothers to 
 remind them of appointments and provide important information related to their health and 
 pregnancy.
+
+Let me show some screenshots 
 
 
 
@@ -60,6 +72,18 @@ pregnancy.
 
 ![image](https://github.com/tewodroswubete/Mobile_assisted_Maternal_health_Advisory_system/assets/94686653/65d2ef80-5e99-4531-b506-c6a2ad96fa5e)
 
+
+
+
+
+The project is developed by Developer Tewodros Wubete 
+If Someone needs  a full project With source code 
+
+
+anyone can Contact me  By Email:  tewodroswubete@gmail.com
+                          mob:   0905028140
+
+                           Hawassa, Ethiopia!
 
 
 
