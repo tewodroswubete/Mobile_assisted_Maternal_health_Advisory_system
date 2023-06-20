@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92881310091",
+    "firebase_url": "https://health-care-app12-default-rtdb.firebaseio.com/",
+    "project_id": "health-care-app12",
+    "storage_bucket": "health-care-app12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92881310091:android:71af07c193736a33099f8e",
+        "android_client_info": {
+          "package_name": "com.ensias.healthcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92881310091-dkt0170pconnedfu96qomls3ha5ecfp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-cT2O6dG2IKgowc5cZNIGEdC5kEYyt7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92881310091-dkt0170pconnedfu96qomls3ha5ecfp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
